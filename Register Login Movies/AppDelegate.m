@@ -1,12 +1,8 @@
 //
 //  AppDelegate.m
-//  Register Login Movies
-//
-//  Created by CodeFrux on 2/11/17.
-//  Copyright © 2017 Sajwalit. All rights reserved.
-//
 
 #import "AppDelegate.h"
+#import "RegisterViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +12,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+//    RegisterViewController *rvc=[[RegisterViewController alloc]init];
+//    [self.window setRootViewController:rvc];
+//   // self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.first=[[RegisterViewController alloc]initWithNibName:@"RegisterViewController" bundle:nil];
+//    self.window.rootViewController=self.first;
+////    
     // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

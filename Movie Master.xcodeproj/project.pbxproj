@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		023D4AF61E4F324900AB5421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4AF51E4F324900AB5421 /* main.m */; };
 		023D4AF91E4F324900AB5421 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4AF81E4F324900AB5421 /* AppDelegate.m */; };
-		023D4AFC1E4F324900AB5421 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4AFB1E4F324900AB5421 /* ViewController.m */; };
-		023D4AFF1E4F324900AB5421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023D4AFD1E4F324900AB5421 /* Main.storyboard */; };
+		023D4AFC1E4F324900AB5421 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4AFB1E4F324900AB5421 /* LoginViewController.m */; };
 		023D4B021E4F324900AB5421 /* Register_Login_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 023D4B001E4F324900AB5421 /* Register_Login_Movies.xcdatamodeld */; };
 		023D4B041E4F324900AB5421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023D4B031E4F324900AB5421 /* Assets.xcassets */; };
 		023D4B071E4F324900AB5421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023D4B051E4F324900AB5421 /* LaunchScreen.storyboard */; };
 		023D4B121E4F324A00AB5421 /* Register_Login_MoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4B111E4F324A00AB5421 /* Register_Login_MoviesTests.m */; };
 		023D4B1D1E4F324A00AB5421 /* Register_Login_MoviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4B1C1E4F324A00AB5421 /* Register_Login_MoviesUITests.m */; };
+		023D4B2B1E4F32CA00AB5421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023D4B2A1E4F32CA00AB5421 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		023D4B2E1E4F334700AB5421 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4B2D1E4F334700AB5421 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		023D4B341E4F378400AB5421 /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 023D4B331E4F378400AB5421 /* Details.m */; settings = {ASSET_TAGS = (); }; };
+		023FC4EE1E5423B90056CDCA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023FC4ED1E5423B90056CDCA /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		02405F001E56BE7C00CAA9AB /* topmovies.json in Resources */ = {isa = PBXBuildFile; fileRef = 02405EFF1E56BE7C00CAA9AB /* topmovies.json */; settings = {ASSET_TAGS = (); }; };
+		027371ED1E51C8570028A807 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027371EC1E51C8570028A807 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		027371F01E51C86C0028A807 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 027371EF1E51C86C0028A807 /* TableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		02FB304F1E5576A7007744C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FB304E1E5576A7007744C3 /* Foundation.framework */; };
+		02FB30511E5576B8007744C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FB30501E5576B8007744C3 /* UIKit.framework */; };
+		02FB30531E5576C9007744C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02FB30521E5576C9007744C3 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +49,8 @@
 		023D4AF51E4F324900AB5421 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		023D4AF71E4F324900AB5421 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		023D4AF81E4F324900AB5421 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		023D4AFA1E4F324900AB5421 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		023D4AFB1E4F324900AB5421 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		023D4AFE1E4F324900AB5421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		023D4AFA1E4F324900AB5421 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		023D4AFB1E4F324900AB5421 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		023D4B011E4F324900AB5421 /* Register_Login_Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Register_Login_Movies.xcdatamodel; sourceTree = "<group>"; };
 		023D4B031E4F324900AB5421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023D4B061E4F324900AB5421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +61,21 @@
 		023D4B181E4F324A00AB5421 /* Register Login MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Register Login MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		023D4B1C1E4F324A00AB5421 /* Register_Login_MoviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Register_Login_MoviesUITests.m; sourceTree = "<group>"; };
 		023D4B1E1E4F324A00AB5421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023D4B2A1E4F32CA00AB5421 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		023D4B2C1E4F334700AB5421 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		023D4B2D1E4F334700AB5421 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		023D4B321E4F378400AB5421 /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		023D4B331E4F378400AB5421 /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
+		023FC4EC1E5423B90056CDCA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		023FC4ED1E5423B90056CDCA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		02405EFF1E56BE7C00CAA9AB /* topmovies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topmovies.json; sourceTree = "<group>"; };
+		027371EB1E51C8570028A807 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		027371EC1E51C8570028A807 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		027371EE1E51C86C0028A807 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		027371EF1E51C86C0028A807 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		02FB304E1E5576A7007744C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02FB30501E5576B8007744C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02FB30521E5576C9007744C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02FB30531E5576C9007744C3 /* CoreGraphics.framework in Frameworks */,
+				02FB30511E5576B8007744C3 /* UIKit.framework in Frameworks */,
+				02FB304F1E5576A7007744C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,9 @@
 		023D4AE81E4F324800AB5421 = {
 			isa = PBXGroup;
 			children = (
+				02FB30521E5576C9007744C3 /* CoreGraphics.framework */,
+				02FB30501E5576B8007744C3 /* UIKit.framework */,
+				02FB304E1E5576A7007744C3 /* Foundation.framework */,
 				023D4AF31E4F324800AB5421 /* Register Login Movies */,
 				023D4B101E4F324A00AB5421 /* Register Login MoviesTests */,
 				023D4B1B1E4F324A00AB5421 /* Register Login MoviesUITests */,
@@ -105,13 +134,23 @@
 			children = (
 				023D4AF71E4F324900AB5421 /* AppDelegate.h */,
 				023D4AF81E4F324900AB5421 /* AppDelegate.m */,
-				023D4AFA1E4F324900AB5421 /* ViewController.h */,
-				023D4AFB1E4F324900AB5421 /* ViewController.m */,
-				023D4AFD1E4F324900AB5421 /* Main.storyboard */,
+				023D4B2A1E4F32CA00AB5421 /* Main.storyboard */,
+				023D4AFA1E4F324900AB5421 /* LoginViewController.h */,
+				023D4AFB1E4F324900AB5421 /* LoginViewController.m */,
+				023D4B2C1E4F334700AB5421 /* RegisterViewController.h */,
+				023D4B2D1E4F334700AB5421 /* RegisterViewController.m */,
+				027371EB1E51C8570028A807 /* TableViewController.h */,
+				027371EC1E51C8570028A807 /* TableViewController.m */,
+				027371EE1E51C86C0028A807 /* TableViewCell.h */,
+				027371EF1E51C86C0028A807 /* TableViewCell.m */,
+				023FC4EC1E5423B90056CDCA /* DetailViewController.h */,
+				023FC4ED1E5423B90056CDCA /* DetailViewController.m */,
 				023D4B031E4F324900AB5421 /* Assets.xcassets */,
 				023D4B051E4F324900AB5421 /* LaunchScreen.storyboard */,
 				023D4B081E4F324900AB5421 /* Info.plist */,
 				023D4B001E4F324900AB5421 /* Register_Login_Movies.xcdatamodeld */,
+				023D4B321E4F378400AB5421 /* Details.h */,
+				023D4B331E4F378400AB5421 /* Details.m */,
 				023D4AF41E4F324900AB5421 /* Supporting Files */,
 			);
 			path = "Register Login Movies";
@@ -120,6 +159,7 @@
 		023D4AF41E4F324900AB5421 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				02405EFF1E56BE7C00CAA9AB /* topmovies.json */,
 				023D4AF51E4F324900AB5421 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -206,7 +246,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = Sajwalit;
+				ORGANIZATIONNAME = Vijay;
 				TargetAttributes = {
 					023D4AF01E4F324800AB5421 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -224,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 023D4AEC1E4F324800AB5421 /* Build configuration list for PBXProject "Register Login Movies" */;
+			buildConfigurationList = 023D4AEC1E4F324800AB5421 /* Build configuration list for PBXProject "Movie Master" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -249,9 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02405F001E56BE7C00CAA9AB /* topmovies.json in Resources */,
 				023D4B071E4F324900AB5421 /* LaunchScreen.storyboard in Resources */,
 				023D4B041E4F324900AB5421 /* Assets.xcassets in Resources */,
-				023D4AFF1E4F324900AB5421 /* Main.storyboard in Resources */,
+				023D4B2B1E4F32CA00AB5421 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				023D4AFC1E4F324900AB5421 /* ViewController.m in Sources */,
+				023D4B2E1E4F334700AB5421 /* RegisterViewController.m in Sources */,
+				023D4AFC1E4F324900AB5421 /* LoginViewController.m in Sources */,
+				023FC4EE1E5423B90056CDCA /* DetailViewController.m in Sources */,
+				023D4B341E4F378400AB5421 /* Details.m in Sources */,
 				023D4B021E4F324900AB5421 /* Register_Login_Movies.xcdatamodeld in Sources */,
 				023D4AF91E4F324900AB5421 /* AppDelegate.m in Sources */,
+				027371F01E51C86C0028A807 /* TableViewCell.m in Sources */,
+				027371ED1E51C8570028A807 /* TableViewController.m in Sources */,
 				023D4AF61E4F324900AB5421 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		023D4AFD1E4F324900AB5421 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				023D4AFE1E4F324900AB5421 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		023D4B051E4F324900AB5421 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		023D4AEC1E4F324800AB5421 /* Build configuration list for PBXProject "Register Login Movies" */ = {
+		023D4AEC1E4F324800AB5421 /* Build configuration list for PBXProject "Movie Master" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				023D4B1F1E4F324A00AB5421 /* Debug */,
@@ -503,6 +541,7 @@
 				023D4B231E4F324A00AB5421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023D4B241E4F324A00AB5421 /* Build configuration list for PBXNativeTarget "Register Login MoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +550,7 @@
 				023D4B261E4F324A00AB5421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023D4B271E4F324A00AB5421 /* Build configuration list for PBXNativeTarget "Register Login MoviesUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +559,7 @@
 				023D4B291E4F324A00AB5421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

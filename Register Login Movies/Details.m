@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Details.m
 //  Register Login Movies
 //
 //  Created by CodeFrux on 2/11/17.
 //  Copyright © 2017 Sajwalit. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Details.h"
 
-@interface ViewController : UIViewController
-
+@implementation Details
 
 @end
-
